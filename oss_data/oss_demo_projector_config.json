@@ -1,0 +1,14 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "Cats",
+      "tensorShape": [3979, 2048],
+      "tensorPath": "oss_data/tensor.bytes",
+      "sprite": {
+        "imagePath": "oss_data/sprites.png",
+        "singleImageDim": [100, 100]
+      }
+    }
+  ],
+  "modelCheckpointPath": "Demo datasets"
+}
