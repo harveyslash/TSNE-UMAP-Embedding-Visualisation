@@ -16,3 +16,16 @@ It shows how a pretrained InceptionV3 model can be used on images and plotted in
 ### Why this over the Standalone Projector? 
 This project allows you to visualise any array of vectors with a light depency stack. It is designed to be decoupled form any library. Moreover , it uses a static file system, so you can publish your results without requiring a server. E.g. https://harveyslash.github.io/TSNE-Embedding-Visualisation/.
 
+### Project Structure
+
+    |-- data  <-- where to put raw data
+    |-- Feature-extractor.ipynb <-- Demo of Embedding generation in a step by step fashion
+    |-- index.html <-- The GUI of the Viewer (Do not touch, unless you know what youre doing)
+    |-- LICENSE
+    |-- main.py <-- Executable to generate embedding data from command line args
+    |-- oss_data <-- required by the visualisation project
+    |   |-- oss_demo_projector_config.json <-- all configuration files are stored here, this is modified by main.py automatically
+    |   |-- sprites.png <-- sprites for the demo 
+    |   `-- tensor.bytes <-- embeddings array for the demo
+    `-- requirements.txt
+   
