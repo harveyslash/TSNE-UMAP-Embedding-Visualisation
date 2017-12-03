@@ -1,7 +1,7 @@
 {
   "embeddings": [
     {
-      "tensorName": "Cats",
+      "tensorName": "RIT",
       "tensorShape": [3979, 2048],
       "tensorPath": "oss_data/tensor.bytes",
       "sprite": {
