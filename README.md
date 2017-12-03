@@ -28,4 +28,20 @@ This project allows you to visualise any array of vectors with a light depency s
     |   |-- sprites.png <-- sprites for the demo 
     |   `-- tensor.bytes <-- embeddings array for the demo
     `-- requirements.txt
-   
+
+### Installation and requirements
+This project requires python3.6. You can install all dependencies using `pip install -r requirements.txt`
+
+### Usage 
+Usage: main.py [OPTIONS]
+
+    Options:
+      --data TEXT                 Data folder,has to end with /
+      --name TEXT                 Name of visualisation
+      --sprite_size INTEGER       Size of sprite
+      --tensor_name TEXT          Name of Tensor file
+      --sprite_name TEXT          Name of sprites file
+      --model_input_size INTEGER  Size of inputs to model
+      --help                      Show this message and exit.
+  
+  
