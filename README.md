@@ -1,6 +1,6 @@
 # TSNE-Embedding-Visualisation
 A Simple and easy to use way to Visualise Embeddings!
-
+Blog post on this project is [here](https://buzzrobot.com/using-t-sne-to-visualise-how-your-deep-model-thinks-4ba6da0c63a0).
 <p align="center">
   <img src="https://github.com/harveyslash/TSNE-Embedding-Visualisation/blob/master/demo.gif?raw=true" alt="Visualising Example"/>
 </p>
