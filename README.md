@@ -14,7 +14,7 @@ It shows how a pretrained InceptionV3 model can be used on images and plotted in
 
 
 ### Why this over the Standalone Projector? 
-This project allows you to visualise any array of vectors with a light depency stack. It is designed to be decoupled form any library. Moreover , it uses a static file system, so you can publish your results without requiring a server. E.g. https://harveyslash.github.io/TSNE-Embedding-Visualisation/.
+This project allows you to visualise any array of vectors with a light depency stack. It is designed to be decoupled from any library. Moreover , it uses a static file system, so you can publish your results without requiring a server. E.g. https://harveyslash.github.io/TSNE-Embedding-Visualisation/.
 
 ### Project Structure
 
@@ -44,4 +44,5 @@ Usage: main.py [OPTIONS]
       --model_input_size INTEGER  Size of inputs to model
       --help                      Show this message and exit.
   
-  
+### Visualising
+After you have run main.py, the sprites, tensors, and config.json should be updated. You can then serve the visualisation using a static file server. I just run `python -m SimpleHTTPServer` at the root level of the project. You can also upload the files to a github repository and then view it using github pages. 
