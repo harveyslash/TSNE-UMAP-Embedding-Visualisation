@@ -66,6 +66,10 @@ def populate_img_arr(images_paths, size=(100, 100), should_preprocess=False):
 @click.option('--sprite_name', default="sprites.png", help='Name of sprites file')
 @click.option('--model_input_size', default=299, help='Size of inputs to model')
 def main(data, name, sprite_size, tensor_name, sprite_name, model_input_size):
+    
+    if not data.endswith('/'):
+        raise ValueError('Makesure --name ends with a "/"')
+    
     images_paths = glob.glob(data + "*.jpg")
     images_paths.extend(glob.glob(data + "*.JPG"))
     images_paths.extend(glob.glob(data + "*.png"))
