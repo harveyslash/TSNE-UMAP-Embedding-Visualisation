@@ -13,6 +13,10 @@ This project is forked from [Tensorflow's Standalone Embedding Projector](https:
 It shows how a pretrained InceptionV3 model can be used on images and plotted in an interactive 3d map.
 
 
+### Update 2020
+The embedding project has been updated by Google to support new features, among which is the support for UMAP. 
+
+
 ### Why this over the Standalone Projector? 
 This project allows you to visualise any array of vectors with a light depency stack. It is designed to be decoupled from any library. Moreover , it uses a static file system, so you can publish your results without requiring a server. E.g. https://harveyslash.github.io/TSNE-Embedding-Visualisation/.
 
