@@ -18,7 +18,7 @@ The embedding project has been updated by Google to support new features, among 
 
 
 ### Why this over the Standalone Projector? 
-This project allows you to visualise any array of vectors with a light depency stack. It is designed to be decoupled from any library. Moreover , it uses a static file system, so you can publish your results without requiring a server. E.g. https://harveyslash.github.io/TSNE-Embedding-Visualisation/.
+This project allows you to visualise any array of vectors with a light depency stack. It is designed to be decoupled from any library. Moreover , it uses a static file system, so you can publish your results without requiring a server. E.g. https://harveyslash.github.io/TSNE-UMAP-Embedding-Visualisation/.
 
 ### Project Structure
 
