@@ -1,4 +1,4 @@
-# TSNE-Embedding-Visualisation
+# TSNE-UMAP-Embedding-Visualisation
 A Simple and easy to use way to Visualise Embeddings!
 Blog post on this project is [here](https://buzzrobot.com/using-t-sne-to-visualise-how-your-deep-model-thinks-4ba6da0c63a0).
 <p align="center">
